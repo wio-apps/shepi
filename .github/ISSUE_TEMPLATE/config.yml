@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Send feedback in private
+    url: https://shepi.app/support
+    about: In Shepi, Help › Send Feedback. Only the developer reads it, and screenshots stay private.
+  - name: Ask a question or share an idea
+    url: https://github.com/wio-apps/shepi/discussions
+    about: Q&A and Ideas, in Discussions.

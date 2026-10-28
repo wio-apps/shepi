@@ -1,0 +1,14 @@
+name: Feature request
+description: Something you'd like Shepi to do.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: "Everything here is public. Don't paste terminal output, paths or machine names. For a private report, use Help › Send Feedback in Shepi."
+  - type: textarea
+    id: what
+    attributes:
+      label: What you'd like
+      description: What you're trying to do, and how Shepi could help.
+    validations:
+      required: true
