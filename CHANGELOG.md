@@ -2,7 +2,7 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
-## Shepi 1.0.1
+## Shepi 1.0.2
 
 The first release. Shepi is a native Mac client for [Herdr](https://herdr.dev): every coding agent you run (Claude Code, Codex, OpenCode, Gemini CLI, Cursor, Copilot CLI) in a real terminal, in one window, on this Mac or your servers, with the one that needs you in amber.
 
