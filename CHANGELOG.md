@@ -2,11 +2,13 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
-## Shepi 1.0.4
+## Shepi 1.1.0
 
-A fix for a window that stopped drawing.
+A web page as a pane, a clean-up for the worktrees your agents leave behind, and a window that keeps drawing.
 
-- **The window keeps drawing while you watch it.** macOS sometimes reported Shepi's window as fully covered while it was in plain sight — another app's invisible overlay is enough to do it — and Shepi stopped asking Herdr for frames, so the agent you were watching froze mid-line until something made the report flip back. Now a window counts as covered only when other apps' ordinary windows really lie over it, and moving the pointer over the window counts as seeing it. A window behind a floating video or a HUD keeps drawing.
+- **A page beside the agent.** An agent runs `shepi-agent show <url> --pane` and the page opens as a pane next to its terminal, in Shepi, with Back, Forward, Reload and Open in Browser in its header; a dev server on one of your servers is forwarded to your Mac first. You can open one yourself: Open as a Pane in a link's menu, Split Right with Web Page… in the pane menu, or, from a web pane, Split Right with This Page. The page keeps its own storage (Settings › Agents clears it) and gets no camera, microphone or files. Shepi's keys still work while it has the keyboard, and Esc hands the keyboard back.
+- **Worktree clean-up.** View › Worktrees… (⌥⌘W) lists every worktree on this Mac and your servers with its branch, size, last activity and what it holds: merged, clean, unpushed commits, uncommitted changes, ignored files such as `.env`, an agent still there, a folder that's gone, or a folder Git doesn't know. Remove All Safe takes only the ones with nothing to lose, among the rows you're showing. Anything else needs its own switch, beside a line saying exactly what would be lost. Merged branches can go with their worktree; others are kept.
+- **The window keeps drawing while you watch it.** macOS sometimes reported Shepi's window as fully covered while it was in plain sight (another app's invisible overlay was enough), and Shepi stopped asking Herdr for frames, so the agent you were watching froze mid-line. Now a window counts as covered only when other apps' ordinary windows really lie over it, and moving the pointer over the window counts as seeing it.
 
 Needs macOS 14 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
 
