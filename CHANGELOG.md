@@ -2,6 +2,18 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.1.1
+
+Quicker, calmer alerts, and a new worktree that needs no name.
+
+- **"Needs you" rings at once.** When an agent needs you, the sound and banner come straight away instead of after a delay.
+- **"Done" means done.** A done alert waits a second and rings only if the agent is still done, so an agent pausing between steps stays quiet.
+- **Sounds from Herdr's app.** If you set custom sounds in Herdr's desktop app, Shepi now plays them, unless your Herdr config names its own. Settings › Notifications says where each comes from.
+- **New worktree, no name needed.** The Branch field opens with a generated name, as Herdr makes them, already selected. Press Return to use it or type your own.
+- **An agent in error needs you.** When Herdr reports an agent in error, Shepi shows it as needing you, everywhere it shows that.
+
+Needs macOS 14 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.1.0
 
 A web page as a pane, a clean-up for the worktrees your agents leave behind, and a window that keeps drawing.
