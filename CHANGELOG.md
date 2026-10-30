@@ -2,6 +2,14 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.0.4
+
+A fix for a window that stopped drawing.
+
+- **The window keeps drawing while you watch it.** macOS sometimes reported Shepi's window as fully covered while it was in plain sight — another app's invisible overlay is enough to do it — and Shepi stopped asking Herdr for frames, so the agent you were watching froze mid-line until something made the report flip back. Now a window counts as covered only when other apps' ordinary windows really lie over it, and moving the pointer over the window counts as seeing it. A window behind a floating video or a HUD keeps drawing.
+
+Needs macOS 14 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.0.3
 
 The first release. Shepi is a native Mac client for [Herdr](https://herdr.dev): every coding agent you run (Claude Code, Codex, OpenCode, Gemini CLI, Cursor, Copilot CLI) in a real terminal, in one window, on this Mac or your servers, with the one that needs you in amber.
