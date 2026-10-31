@@ -2,6 +2,17 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.2.0
+
+Feedback that can carry a diagnostic log, and close questions that ask where you started.
+
+- **A diagnostic log with your feedback.** Send Feedback can now include a log of what Shepi was doing: connection states, requests by method, notification decisions and a summary of each recent crash. It holds neutral labels such as "space 1 › tab 2", never terminal contents, names or paths. The switch is on by default and remembered, and What's included shows you the log before you send.
+- **A report ID to quote.** After you send, Shepi shows an ID you can copy or put in an email to support. Settings › General keeps your last three.
+- **A close asks where you started it.** Close a tab from its `×`, its menu or a middle-click and the card appears under that tab; Close Space from a sidebar row puts it beside the row. What will close is struck through right there, the arrow points at its name, and the card stays over your panes, clear of the sidebar. Closing by key still asks in the middle of the panes.
+- **Shepi's agent skill loads in Pi.** Its description is now valid YAML, so Pi no longer lists it among its startup errors.
+
+Needs macOS 14 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.1.1
 
 Quicker, calmer alerts, and a new worktree that needs no name.
