@@ -2,6 +2,24 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.3.0
+
+A brighter sidebar that tells you more at a glance, a roomier worktree list, and typing that takes a pane back.
+
+- **Each space shows what it has to push and pull.** After the branch, ↑ counts the commits to push and ↓ the commits to pull, in the branch's own quiet colour. Nothing shows when the branch is even or has no upstream.
+- **Space tiles you can tell apart.** Each space's tile is now a solid colour with a white capital letter, or the emoji its name starts with. The colours stay clear of amber, green, red and the working blue, so a tile never looks like a state.
+- **Agents lead with their own mark.** Each agent row starts with its maker's mark in the maker's colour: Claude Code in terracotta, Gemini CLI in blue, and so on. The state moved to the right of the title: a spinner while working, a check when done, a ring when idle. "needs you" keeps its amber pill. The agent's name is in the mark's tooltip and in VoiceOver.
+- **One look for every sidebar row.** Space rows and agent rows are the same height and line up. A space's counts are round badges, one per state, and an agent's state is the same mark without a number.
+- **⌘B shows and hides the sidebar.** If you set your own key for it, Shepi keeps yours.
+- **The worktree list is wide and short.** It opens in the middle of the window, 760 pt wide and only as tall as its rows. Drag any edge or corner to resize it; Shepi remembers the size.
+- **Typing takes a pane back.** When another device has resized a pane, the first key you type gives it back to this Mac's size, with no note in the way.
+- **A pane that doesn't arrive says so.** If a pane stays empty for 30 seconds after its machine connects, it says "This pane didn't arrive" with a Reload button, and the machine's other panes carry on.
+- **Steadier connections to your servers.** A network change no longer drops a working SSH session: Shepi checks that it still answers before replacing it.
+- **Large images show a placeholder.** An image too large for the terminal to keep shows its size in the space it would take, instead of nothing.
+- **A click while a terminal comes back** now waits for it instead of being lost.
+
+Needs macOS 14 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.2.0
 
 Feedback that can carry a diagnostic log, and close questions that ask where you started.
