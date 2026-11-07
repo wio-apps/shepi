@@ -2,6 +2,17 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.4.1
+
+Agents reach Shepi reliably, and every answer and setting stays where it belongs.
+
+- **Agents reach Shepi whenever it's open.** They no longer say Shepi isn't open while it is.
+- **Codex and Grok Build keep your settings.** Shepi no longer removes settings you chose in Codex or Grok Build.
+- **Every answer reaches its own question.** Your answer always goes to the question you answered, and an agent that asks the same question again right away gets a new card.
+- **Permissions as they are now.** When an agent asks whether Shepi has a permission, it hears what is turned on now, even if you just changed it in System Settings.
+
+Needs macOS 15 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.4.0
 
 Your agents use Shepi on their own, every question waits in one card, and Shepi speaks Japanese and Chinese.
