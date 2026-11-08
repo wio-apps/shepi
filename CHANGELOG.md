@@ -2,6 +2,16 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.4.2
+
+Smoother scrolling, and agent cards and settings that respond the way you expect.
+
+- **Scrolling stays smooth while an agent works.** Scrolling through an agent that is busy no longer stops for a moment now and then.
+- **Agent cards close when you're done with them.** A card that opened while the pointer rested on an agent now closes when you move away from it or click somewhere else.
+- **The size buttons answer every click.** In Settings › Appearance › Size, the − and + buttons work wherever you click on them.
+
+Needs macOS 15 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.4.1
 
 Agents reach Shepi reliably, and every answer and setting stays where it belongs.
