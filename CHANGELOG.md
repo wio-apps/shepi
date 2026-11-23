@@ -2,6 +2,17 @@
 
 Every version of Shepi for Herdr, newest first. The same notes are at [shepi.app/releases](https://shepi.app/releases).
 
+## Shepi 1.5.1
+
+Worktrees tells what you would really lose.
+
+### Fixed
+
+- **A generated Xcode project no longer holds up a worktree.** When a worktree's only extra files are an Xcode project that your project's generator makes again, Worktrees marks it Safe and ticks it for removal, instead of asking you to take a look.
+- **A link is not counted as work.** A link in a worktree to a file or folder elsewhere, such as your main checkout’s secrets, no longer makes it read as uncommitted. Removing it takes only the link, never what it points to.
+
+Needs macOS 15 or later and Herdr 0.9.3 or later. Shepi finds the update itself, or ask for it in Shepi › Check for Updates.
+
 ## Shepi 1.5.0
 
 Agents reach you, show you their plans and pages, and make you mods.

@@ -1,32 +1,26 @@
 # Shepi for Herdr
 
-Shepi is a native Mac client for Herdr.
+Shepi is a native Mac client for Herdr, on the same sessions as Herdr's terminal UI.
 
-![Shepi for Herdr: all your coding agents in one Mac window](og.png)
+![The Shepi window in the dark with two parts lit: an agent’s card in the sidebar, amber, asking “Want me to open the PR?” above a Review in its pane button, and the banner that asks the same.](https://shepi.app/og-4.jpg)
 
-**All your coding agents. One Mac window. Two keys to the one that needs you.**
-
-[Herdr](https://herdr.dev) is the terminal runtime that keeps your agents alive. Claude Code, Codex, OpenCode, Gemini CLI, Cursor, Copilot CLI: in Shepi every one of them runs in a real terminal, at once, on this Mac or your servers, with the one that needs you in amber.
-
-- **The server never stopped. The client just showed up.** Open Shepi and every space, tab and agent you already have in Herdr is there, in real terminals, exactly where you left them.
-- **When one of them needs you, you hear about it.** The agent turns amber in the sidebar, the pane header and the status line, a banner finds you, and you hear Herdr's own sound. The prefix and `a` takes you straight there.
-- **Your agents can ask you properly.** An agent can ask you a real question with buttons, open a page on your Mac, report its progress under its name, and open a pane beside itself. On your servers too.
-- **See what your agent changed.** Every file changed since the last commit, side by side or in one column, on this Mac or a server.
-- **Agents on your other machines join the same sidebar.** Add any machine you reach over SSH, right from Shepi.
-- **Macros, Find and the inbox.** One key types a whole sequence into an agent; one search finds every space, agent, pane and line of output; every agent that finished or needed you while you were away waits in the inbox.
-- **Private by design.** No analytics, no crash reports, no Shepi account.
+It shows every coding agent at once in real terminals, on this Mac and on machines reached over SSH, flags the one that needs you, and gets you there with two keys. It also types what you say into any app, captures and marks up your screen, and shares one clipboard across the accounts of your Mac.
 
 ## Get it
 
 - [Download](https://shepi.app/download)
 - [Guide](https://shepi.app/guide)
 - [Compare](https://shepi.app/compare)
-- [FAQ](https://shepi.app/#faq)
+- [Questions](https://shepi.app/faq)
 - [Release notes](CHANGELOG.md)
+- [Support](https://shepi.app/support)
+- [Privacy](https://shepi.app/privacy)
 
-**Needs** macOS 14 or later (Apple silicon and Intel, notarized) and Herdr 0.9.3 or later.
+**Needs** macOS 15 or later (Apple silicon and Intel) and Herdr 0.9.3 or later.
 
-**Price:** $19.99 once, every future update included. Try everything for 14 days first, with no account and no card.
+**Price:** $29.99 a month. Or $299.90 a year, two months free. Subscribe signed in with Google, GitHub or X, and Shepi is yours on all your Macs, with every new version. Not for you? Write to us within 7 days of your first subscription and you get your money back, less the payment fee. Cancel any time: Shepi stays until the end of the time you’ve paid for.
+
+**Languages:** English, Japanese and Simplified Chinese (the app and shepi.app): [Japanese](https://shepi.app/ja/), [Simplified Chinese](https://shepi.app/zh/)
 
 ## Feedback
 
